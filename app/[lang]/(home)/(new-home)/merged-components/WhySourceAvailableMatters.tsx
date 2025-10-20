@@ -46,7 +46,7 @@ function Feature({ title, description }: FeatureProps) {
         <h3 className="m-0 w-auto shrink-0 text-[17.5px] leading-[25px] font-medium text-zinc-200 lg:w-[166px]">
           {title}
         </h3>
-        <p className="m-0 block text-sm leading-5 font-normal text-zinc-400">
+        <p className="m-0 block text-sm leading-5 font-normal text-zinc-400 w-[166px] h-[80px]">
           {description}
         </p>
       </div>
@@ -110,7 +110,7 @@ export default function WhySourceAvailableMatters() {
               Why Source Available Matters
             </h2>
 
-            <div className="grid grid-cols-3 gap-8 lg:grid-cols-1 lg:gap-0">
+            <div className="grid grid-cols-3 gap-8 lg:grid-cols-1 lg:gap-16">
               <Feature
                 title="Transparency"
                 description="Audit our code, understand our architecture, and verify our security practices."
